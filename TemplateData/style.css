@@ -22,18 +22,17 @@ body, html{
     padding:0;
 }
 
-#SamplePlayerDivID {
-    position: absolute;
-    transform: translate(0%, 0%);
-    top: 0%;
-    left: 0%;
-}
 
 #gameContainer canvas {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+}
+
+#twitch-embed {
+    display:block;
+    position:absolute;
 }
 
 .simmer{
